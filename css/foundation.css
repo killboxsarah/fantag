@@ -1441,7 +1441,6 @@ meta.foundation-mq-topbar {
 .contain-to-grid {
   width: 100%;
   background: #161616; 
-  border-top: solid;
   border-bottom: solid;
   border-color: white;
   border-width: 1px;}
@@ -1473,7 +1472,11 @@ meta.foundation-mq-topbar {
   line-height: 45px;
   position: relative;
   margin-bottom: 0; 
-/*  padding-left: 20%;*/}
+  padding-left: 7%;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 1px;
+}
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -1496,7 +1499,7 @@ meta.foundation-mq-topbar {
     position: relative;
     margin: 0; }
   .top-bar .name {
-    height: 45px;
+/*    height: 45px;*/
     margin: 0;
     font-size: 16px; }
     .top-bar .name h1 {
@@ -2165,31 +2168,37 @@ button, .button {
       overflow: hidden; }
 
 /* Panels */
-.panel {
-/*  border-style: solid;*/
-/*  border-width: 1px;
-  border-color: #d9d9d9;
-  margin-bottom: 1.25rem;*/
-  /*  background: #f2f2f2;*/ }
+.panel { }
  .panel-words { 
   padding: 0px;
   color: #000;
-
-/*  border-style: solid;
-  border-width: 1px;
-  border-color: #d9d9d9;*/
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
 }
+
+.panel-last {
+  background-color: #000;
+  color: #fff;
+}
+
+.footerback {
+/*  background-color: #fff;*/
+/*  background-image: url("../img/Footer_Logo.jpg");*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 5;
+}
+
+
   .panel > :first-child {
     margin-top: 0; }
   .panel > :last-child {
     margin-bottom: 0; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
-    color: #333333; }
+    color: #9a9a9a; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
-    margin-bottom: 0.625rem; }
+    margin-bottom: 1rem; }
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
       line-height: 1.4; }
   .panel.callout {
@@ -2679,12 +2688,12 @@ blockquote,
 th,
 td {
   margin: 0;
-  padding: 0;
+/*  padding: 0;*/
   direction: ltr; }
 
 /* Default Link Styles */
 a {
-  color: #161616;
+  color: #fff;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
@@ -2697,9 +2706,11 @@ p {
   font-family: inherit;
   font-weight: normal;
   font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.25rem;
-  text-rendering: optimizeLegibility; }
+  line-height: 1rem;
+  margin-bottom: .25rem;
+  text-rendering: optimizeLegibility; 
+  font-size: 80%;
+}
   p aside {
     font-size: 0.875rem;
     line-height: 1.35;
