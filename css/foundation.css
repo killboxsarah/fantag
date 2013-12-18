@@ -35,7 +35,7 @@ body {
   color: white;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Prohibition", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1479,7 +1479,8 @@ meta.foundation-mq-topbar {
 }
   .top-bar ul {
     margin-bottom: 0;
-    list-style: none; }
+    list-style: none; 
+  }
   .top-bar .row {
     max-width: none; }
   .top-bar form,
@@ -1487,11 +1488,11 @@ meta.foundation-mq-topbar {
     margin-bottom: 0; }
   .top-bar input {
     height: auto;
-    padding-top: .35rem;
+/*    padding-top: .35rem;*/
 /*    padding-bottom: .35rem;*/
     font-size: 0.75rem; }
   .top-bar .button {
-    padding-top: .45rem;
+    padding-top: .15rem;
     padding-bottom: .35rem;
     margin-bottom: 0;
     font-size: 0.75rem; }
@@ -1499,7 +1500,7 @@ meta.foundation-mq-topbar {
     position: relative;
     margin: 0; }
   .top-bar .name {
-/*    height: 45px;*/
+/*    background-image: url("../img/Fantag_Header_Logo_White.png");*/
     margin: 0;
     font-size: 16px; }
     .top-bar .name h1 {
@@ -1570,7 +1571,8 @@ meta.foundation-mq-topbar {
     display: block;
     background: #161616;
     font-size: 16px;
-    margin: 0; }
+/*    padding-top: 25px;*/
+/*    margin: 0; */}
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-top: solid 1px #1a1a1a;
@@ -1584,8 +1586,8 @@ meta.foundation-mq-topbar {
     color: white;
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 0.8125rem;
+    font-family: "Prohibition Regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
     font-weight: normal;}
     .top-bar-section ul li > a.button {
       background: #161616;
@@ -1607,7 +1609,7 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > a.button.alert:hover {
         background: #970b0e; }
   .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #7bb8e3;
     color: white; }
   .top-bar-section ul li.active > a {
     background: #161616;
@@ -1615,7 +1617,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li.active > a:hover {
       background: #090909; }
   .top-bar-section .has-form {
-    padding: 15px; }
+    padding: 8px; }
   .top-bar-section .has-dropdown {
     position: relative; }
     .top-bar-section .has-dropdown > a:after {
@@ -1630,7 +1632,7 @@ meta.foundation-mq-topbar {
       margin-top: -4.5px;
       position: absolute;
       top: 50%;
-      right: 0; }
+/*      right: 0; */}
     .top-bar-section .has-dropdown.moved {
       position: static; }
       .top-bar-section .has-dropdown.moved > .dropdown {
@@ -1685,9 +1687,9 @@ meta.foundation-mq-topbar {
       width: auto; }
     .top-bar input,
     .top-bar .button {
-      font-size: 0.875rem;
+      font-size: 1.2rem;
       position: relative;
-      top: 7px; }
+/*      top: 7px; */}
     .top-bar.expanded {
       background: #333333; }
 
@@ -1714,20 +1716,25 @@ meta.foundation-mq-topbar {
       background: #272727;
       color: white; }
     .top-bar-section li a:not(.button) {
-      padding: 0 15px;
-      line-height: 45px;
+      padding: 0 13px;
+/*      margin-top: 4px;*/
+      line-height: 47px;
       background: #161616; }
       .top-bar-section li a:not(.button):hover {
-        background: #272727; }
+        background: #7bb8e3;
+        border-bottom: 5px solid #7bb8e3;
+        margin-bottom: 0px;
+        color: #000;
+      }
     .top-bar-section .has-dropdown > a {
-      padding-right: 35px !important; }
+   /*   padding-right: 10px !important; */}
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: block;
         width: 0;
         height: 0;
         border: inset 5px;
-        border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
+        border-color: transparent transparent transparent transparent;
         border-top-style: solid;
         margin-top: -2.5px;
         top: 22.5px; }
@@ -1753,7 +1760,7 @@ meta.foundation-mq-topbar {
         line-height: 1;
         white-space: nowrap;
         padding: 12px 15px;
-        background: #333333; }
+        background: #7bb8e3 }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: #333333; }
@@ -1769,7 +1776,7 @@ meta.foundation-mq-topbar {
       width: 0; }
     .top-bar-section .has-form {
 /*      background: #333333;*/
-      padding: 0 15px;
+/*      padding: 0 15px;*/
       height: 45px; }
     .top-bar-section ul.right li .dropdown {
       left: auto;
@@ -1903,7 +1910,7 @@ meta.foundation-mq-topbar {
 
 button, .button {
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Prohibition", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: .75rem 0 1.25rem;
@@ -1949,9 +1956,9 @@ button, .button {
     button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
       color: white; }
   button.alert, .button.alert {
-    background-color: #c60f13;
+    background-color: #7bb8e3;
     border-color: #ae0d11;
-    color: white; }
+    color: #000; }
     button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
       background-color: #ae0d11; }
     button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
@@ -1980,7 +1987,7 @@ button, .button {
   button.expand, .button.expand {
     padding-right: 0;
     padding-left: 0;
-    width: 100%; }
+    width: 80%; }
   button.left-align, .button.left-align {
     text-align: left;
     text-indent: 0.75rem; }
@@ -2183,7 +2190,7 @@ button, .button {
 
 .footerback {
 /*  background-color: #fff;*/
-/*  background-image: url("../img/Footer_Logo.jpg");*/
+  background-image: url("../img/Footer_background_v01.png");
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: 5;
@@ -4186,7 +4193,7 @@ textarea {
 /*  margin: 0 0 1rem 0;
   padding: 0.5rem;
   height: 2.3125rem;*/
-  width: 100%;
+  width: 95%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -4661,7 +4668,7 @@ kbd {
   border-style: solid;
   border-width: 1px;
   margin: 0;
-  font-family: "Consolas", "Menlo", "Courier", monospace;
+  font-family: "Prohibition", "Consolas", "Menlo", "Courier", monospace;
   font-size: 0.875rem;
   padding: 0.125rem 0.25rem 0;
   -webkit-border-radius: 3px;
