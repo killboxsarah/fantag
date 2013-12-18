@@ -17,7 +17,7 @@
             var head = document.getElementsByTagName("head")[0];
             head.appendChild(trial);
         })();
-    </script>    
+    </script>  
 
   </head>
 
@@ -281,8 +281,11 @@
         <div class="panel info" style="margin-top:0px; margin-left: 0px;">
           <div class="footerback">
            </br> 
-          <a href="fantag.html"><img src="img/Twitter_Icon_9a9a9a.png" style="padding-left:60px; padding-right:15px; padding-top:5px;"/></a>
-          <a href="fantag.html"><img src="img/Facebook_Icon_9a9a9a (1).png" style="padding-top:5px;"/></a>
+
+           <div class ="large-1 columns twitter">
+           </div>
+           <div class ="large-1 columns facebook">
+           </div>
         </br>
         </br>
         </br>
@@ -292,7 +295,7 @@
         </br>
         </br>
         </br>
-          <p> more stuff </p>
+
         </div>
         </div>
       </div>
@@ -322,6 +325,16 @@
   <script>
     $(document).foundation();
   </script>
+
+  <script>
+        jQuery(function(){
+             $(".img-swap").hover(
+                  function(){this.src = this.src.replace("img/Facebook_Icon_9a9a9a (1).png","img/Twitter_Icon_9a9a9a.png");},
+                  function(){this.src = this.src.replace("img/Twitter_Icon_9a9a9a.png","Facebook_Icon_9a9a9a (1).png");
+             });
+        });
+  </script>
+
 </body>
 </html>
     

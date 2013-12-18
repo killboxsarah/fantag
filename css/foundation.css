@@ -5100,3 +5100,31 @@ th.hide-for-touch {
 
 .touch th.show-for-touch {
   display: table-cell !important; }
+
+.twitter{
+    width: 49px; 
+    height: 49px; 
+    background-image: url('../img/Twitter_Icon_9a9a9a.png');
+    background-repeat: none;
+    margin-left: 60px;
+    margin-top: 2px;
+}
+
+.twitter:hover {
+    background-image: url('../img/Twitter_Icon_white.png');
+    background-repeat: none;
+}
+
+.facebook {
+    width: 49px; 
+    height: 49px; 
+    background-image: url('../img/Facebook_Icon_9a9a9a (1).png');
+    background-repeat: none;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.facebook:hover {
+    background-image: url('../img/Facebook_Icon_white.png');
+    background-repeat: none;
+}
