@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+/*@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 meta.foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
   width: 0em; }
@@ -17,7 +17,16 @@ meta.foundation-mq-xlarge {
 
 meta.foundation-mq-xxlarge {
   font-family: "/only screen and (min-width:120.063em)/";
-  width: 120.063em; }
+  width: 120.063em; }*/
+
+
+@font-face
+{
+font-family: Prohibition;
+src: url('../ProhibitionFamily/prohibition.otf');
+}
+
+
 
 *,
 *:before,
@@ -35,7 +44,7 @@ body {
   color: white;
   padding: 0;
   margin: 0;
-  font-family: "Prohibition", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: Arial, "Prohibition", "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1586,8 +1595,8 @@ meta.foundation-mq-topbar {
     color: white;
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-family: "Prohibition Regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 0.9rem;
+    font-family: "Prohibition", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
     font-weight: normal;}
     .top-bar-section ul li > a.button {
       background: #161616;
@@ -1670,9 +1679,10 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #161616;
+    background: #000;
     overflow: visible;
     border-width: 1px;
+    border-color: #9a9a9a;
     height: 100%;}
     .top-bar:before, .top-bar:after {
       content: " ";
@@ -1716,7 +1726,7 @@ meta.foundation-mq-topbar {
       background: #272727;
       color: white; }
     .top-bar-section li a:not(.button) {
-      padding: 0 13px;
+      padding: 0 13.5px;
 /*      margin-top: 4px;*/
       line-height: 47px;
       background: #161616; }
@@ -2175,7 +2185,12 @@ button, .button {
       overflow: hidden; }
 
 /* Panels */
-.panel { }
+.panel { 
+  font-family: Arial;
+
+}
+
+
  .panel-words { 
   padding: 0px;
   color: #000;
@@ -2189,11 +2204,11 @@ button, .button {
 }
 
 .footerback {
-/*  background-color: #fff;*/
-  background-image: url("../img/Footer_background_v01.png");
+  background-image: url("../img/Footer_background_v02.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  z-index: 5;
+  background-size: 34%;
+  background-position: top right;
+  z-index: 1;
 }
 
 
@@ -2202,7 +2217,8 @@ button, .button {
   .panel > :last-child {
     margin-bottom: 0; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
-    color: #9a9a9a; }
+    color: #9a9a9a; 
+    /*font-family: "Prohibition";*/}
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
     margin-bottom: 1rem; }
@@ -2686,7 +2702,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6,
 pre,
 form,
@@ -2697,6 +2712,10 @@ td {
   margin: 0;
 /*  padding: 0;*/
   direction: ltr; }
+
+  h5 {
+    font-family: "Prohibition";
+  }
 
 /* Default Link Styles */
 a {
@@ -2710,7 +2729,7 @@ a {
 
 /* Default paragraph styles */
 p {
-  font-family: inherit;
+  font-family: arial;
   font-weight: normal;
   font-size: 1rem;
   line-height: 1rem;
@@ -2724,7 +2743,7 @@ p {
     font-style: italic; }
 
 /* Default header styles */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -5128,3 +5147,9 @@ th.hide-for-touch {
     background-image: url('../img/Facebook_Icon_white.png');
     background-repeat: none;
 }
+
+/*a:active
+{ 
+background-color:;
+}*/
+
