@@ -1727,7 +1727,7 @@ meta.foundation-mq-topbar {
       padding: 0 13.5px;
 /*      margin-top: 4px;*/
       line-height: 47px;
-      background: #161616; }
+      background: #000; }
       .top-bar-section li a:not(.button):hover {
         background: #7bb8e3;
         border-bottom: 5px solid #7bb8e3;
