@@ -140,7 +140,7 @@
           </ul>
         </li>
 
-          <li class="has-form" style="padding-top:13px;">
+          <li class="has-form" style="padding-top:17px;">
             <div class="row collapse">
               <div class="large-9 small-9 columns">
                 <input type="search" results="5" name="s" placeholder="search..." autosave="unique"></form>
