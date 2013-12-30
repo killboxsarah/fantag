@@ -1924,7 +1924,7 @@ button, .button {
   font-family: "Prohibition", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
-  margin: .75rem 0 1.25rem;
+ /* margin: .75rem 0 1.25rem;*/
   position: relative;
   text-decoration: none;
   text-align: center;
