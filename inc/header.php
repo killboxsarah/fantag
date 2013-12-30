@@ -15,10 +15,10 @@
       <div class="row">
         <div class="large-12 columns" style="padding-top: 7px;">
           <div class="large-7 columns" style="padding-left:0px;">
-            <p>FREE SHIPPING on all orders over $500. USE CODE FREESHIPPING at checkout</p>
+            <p>FREE SHIPPING on all orders over $50. Use code FREESHIPPING at checkout</p>
           </div>
           <div class="large-5 columns" style="padding-right:0px;">
-            <p style="direction: rtl;">Hello John | Logout | Shopping Cart (0 Articles: $0:00)</p>
+            <p style="direction: rtl;"> Hello John | Logout | Shopping Cart 0 Articles: $0:00</p>
           </div>
         </div>
 
