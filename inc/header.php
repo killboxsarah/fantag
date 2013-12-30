@@ -61,7 +61,10 @@
         </li>
 
         <li class="has-dropdown" style="margin-top:5px;">
-          <a href="#">NEW ARRIVALS</a>
+          <a href="#" style="
+            border-bottom-width: 0px;
+            height: 52px;
+            ">NEW ARRIVALS</a>
           <ul class="dropdown" style="
               margin-left:0px;
               padding-left:0px;">
@@ -74,7 +77,10 @@
         </li>
 
         <li class="has-dropdown" style="margin-top:5px;">
-          <a href="#">FANTASY</a>
+          <a href="#" style="
+            border-bottom-width: 0px;
+            height: 52px;
+            ">FANTASY</a>
           <ul class="dropdown" style="
               margin-left:0px;
               padding-left:0px;">
@@ -87,7 +93,10 @@
         </li>
 
         <li class="has-dropdown" style="margin-top:5px;">
-          <a href="collections.php">COLLECTIONS</a>
+          <a href="collections.php" style="
+            border-bottom-width: 0px;
+            height: 52px;
+            ">COLLECTIONS</a>
           <ul class="dropdown" style="
               margin-left:0px;
               padding-left:0px;">
@@ -100,7 +109,10 @@
         </li>
         
         <li class="has-dropdown" style="margin-top:5px;">
-          <a href="Women.php">WOMEN'S</a>
+          <a href="Women.php" style="
+            border-bottom-width: 0px;
+            height: 52px;
+            ">WOMEN'S</a>
           <ul class="dropdown" style="
               margin-left:0px;
               padding-left:0px;">
@@ -113,7 +125,10 @@
         </li>
         
         <li class="has-dropdown" style="margin-top:5px; ">
-          <a href="kid.php">KID'S</a>
+          <a href="kid.php" style="
+            border-bottom-width: 0px;
+            height: 52px;
+            ">KID'S</a>
           <ul class="dropdown" style="
               margin-left:0px;
               padding-left:0px;">
