@@ -1578,10 +1578,8 @@ meta.foundation-mq-topbar {
     width: 100%;
     height: auto;
     display: block;
-    background: #161616;
-    font-size: 16px;
-/*    padding-top: 25px;*/
-/*    margin: 0; */}
+    background: #000;
+    font-size: 16px; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-top: solid 1px #1a1a1a;
