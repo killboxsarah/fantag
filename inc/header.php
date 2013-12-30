@@ -45,7 +45,7 @@
 
       <ul class="left" style="padding-left:30px; margin-top:15px;">
         <li class="has-dropdown" style="margin-top:5px;">
-          <a href="#" >SHOP BY TEAM</a>
+          <a href="#" style="border-bottom-width: 0px;">SHOP BY TEAM</a>SHOP BY TEAM</a>
           <ul class="dropdown" style="
               margin-left:0px;
               padding-left:0px;">
