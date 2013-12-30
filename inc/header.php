@@ -50,9 +50,8 @@
               margin-left:0px;
               padding-left:0px;">
             <li><a href="#" style="
-              border-bottom-width: 0px;
-              width: 250px;
-              height: 52px;"
+              width:250px;
+              height:50px;
               "
              >Dropdown Option</a></li>
           </ul>
