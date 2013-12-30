@@ -17,7 +17,7 @@
  
         <div class="large-2 columns" style="padding-left: 0px; padding-right: 0px;">
           <div class="panel info">
-          <h5> <b>INFORMATION </b> </h5>
+          <h5> INFORMATION </h5>
               <p> About Us </p>
               <p> Contact </p>
               <p> FAQ </p>
@@ -31,7 +31,7 @@
 
         <div class="large-3 columns" style="padding-left: 0px;">
           <div class="panel info">
-          <h5> <b>#MAKEMYSHIRT </b></h5>
+          <h5> #MAKEMYSHIRT </h5>
               <p> Is there a design you absolutely must <br>
                   have, but it’s not available in your <br>
                   size or color? No problem. 
@@ -51,7 +51,7 @@
 
         <div class="large-7 columns">
           <div class="panel info">
-             <h5> <b>QUALITY YOU CAN TRUST </b></h5>
+             <h5> QUALITY YOU CAN TRUST </h5>
              <p> Before you can turn heads with your threads, </br>
               somebody’s gotta print your new favorite shirt! </br>
               </br>
