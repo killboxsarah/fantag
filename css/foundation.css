@@ -1768,7 +1768,10 @@ meta.foundation-mq-topbar {
         line-height: 1;
         white-space: nowrap;
         padding: 12px 15px;
-        background: #7bb8e3 }
+        background: #7bb8e3; 
+        font-family: Arial;
+        font-size: 16px;
+        }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: #333333; }
